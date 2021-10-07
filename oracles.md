@@ -27,3 +27,9 @@ Chainlink contracts which specify more than one node for their data source can a
 Chainlink nodes are not limited to providing static data points. They can also complete computational work, generate randomness, etc.
 
 Chainlink nodes can be required to stake some minimum amount on their performance for a data point contract. If they violate their SLA, they can be slashed.
+
+## Store Oracles
+
+Store is aiming to build oracles into the system at the protocol level. Oracles services would be fulfilled by known Store entities such as consensus validators. Data points and tasks completed by this oracle service would pass through a 2/3+ BFT consensus mechanism which would aim to ensure data provided by oracles was accurate and high quality.
+
+![store oracles](./images/store-oracles.jpg)
